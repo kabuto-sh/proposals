@@ -13,3 +13,7 @@ KAP stands for "Kabuto Action Proposal". These proposals include project funding
 ## Get involved
 
 Twitter: https://twitter.com/kabuto_sh
+
+## Copyright
+
+This document is licensed under the Apache License, Version 2.0 -- see [LICENSE](/LICENSE)

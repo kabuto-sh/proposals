@@ -1,23 +1,22 @@
 ---
 kap: 6
 title: Bug bounty reward to cobb.ℏ
-type: Information
+type: Action
 subproject: KNS
 sponsor: LaunchBadge
 author: Ken Anderson (@kenthejr)
 status: Draft
 created: 2023-02-21
-updated: 
 deadline: 2023-02-24
 ---
 
 ## Abstract
 
-Issuance of 1,000ℏ to cobb.ℏ as reward for discovering a bug on the [KNS dApp](https://ns.kabuto.sh/).
+Issuance of 1,000ℏ to `cobb.ℏ` as reward for discovering a bug on the [KNS dApp](https://ns.kabuto.sh/).
 
 ## Rationale
 
-On January 4th, 2023, Twitter use @CryptoCobbb discovered a bug in the KNS dApp which showed a cached address record for his domain where no address record was recorded.
+On January 4th, 2023, Twitter use @CryptoCobbb discovered a bug in the KNS dApp which showed a cached address record for his domain where no address record was initialized by the domain NFT owner.
 
 Upon investigation, it was confirmed that:
 
@@ -27,7 +26,9 @@ Upon investigation, it was confirmed that:
 
 The KNS resolver was updated and the correct response was confirmed. Additional monitoring was put in place to periodically check for such inconsistencies in the future.
 
-*NOTE: The KNS Resolver is a convenience feature in beta at the time of this discovery. The KNS contracts can be queried for direct access to the "source of truth".*
+@CryptoCobbb requested that the bug bounty be sent to KNS address `cobb.ℏ`.
+
+*NOTE: The KNS Resolver is a caching service in beta at the time of this discovery. The KNS contracts can be queried for direct access to the "source of truth".*
 
 ## Issuance
 

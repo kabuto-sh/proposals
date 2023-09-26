@@ -23,9 +23,6 @@ A UBeU digital identity token is in the standardized format ‘firstname.lastnam
 
 Through the development of open-source software, tools, and SDKs, the UBeU unified digital identity registry will be decentralized so that wallets and DApps throughout the Hedera ecosystem can interact directly with the registry. By decentralizing access to the registry, wallets will be able to integrate digital identity creation and the issuance of a digital identity NFT into the account creation process. A digital identity NFT authorizes users to access and interact with the UBeU DApp to configure secondary subdomains. As well the decentralization of the UBeU platform will enable third-party Hedera DApps to interact directly with the UBeU registry. This has several advantages, including the ability to resolve names in a DApp, the ability for a DApp to support reverse resolution, and it allows users to configure secondary subdomains to point at a DApps resources, and provides an easy way for users to update a name they own to point at a DApp's resources. It is anticipated that as a unified digital registry with standardized naming formats, the UBeU platform will enable 3rd party services to be built on top of it. The benefit of using less complex account identifiers in favor of custom account aliases and the need for a digital asset management platform to accommodate the tokenization of real-world consumer assets justifies the `.ubeu` TLD.
 
-## Specifications
-A top-level domain (TLD) '.ubeu' smart contract maintains the registry of domains, records the owner, the resolver, and allows the owner to make changes to the data therein. A registrar smart contract is written owning the secondary-level domains and issues subdomain NFTs of '.ubeu' domains to buyer. Domain resolution is made using KNS resolver. The subdomain NFT allows its owner to interact with the UBeU app and create secondary subdomains.
-
 ## Clearance
 
 | Organization       | Cleared? |
@@ -36,12 +33,13 @@ A top-level domain (TLD) '.ubeu' smart contract maintains the registry of domain
 | UnstoppableDomains | TRUE     |
 
 ## Specification
+A top-level domain (TLD) '.ubeu' smart contract maintains the registry of domains, records the owner, the resolver, and allows the owner to make changes to the data therein. A registrar smart contract is written owning the secondary-level domains and issues subdomain NFTs of '.ubeu' domains to buyer. Domain resolution is made using KNS resolver. The subdomain NFT allows its owner to interact with the UBeU app and create secondary subdomains.
 
-The Hedera Yacht Club TLD should be issued as `.ubeu`.
+The UBEU TLD should be issued as `.ubeu`.
 
 This TLD will be issued as a KNS TLD NFT.
 
-The admin of this TLD shall be 0.0.xxxxxx.
+The admin of this TLD shall be 0.0.3724158.
 
 Purchases shall follow the KNS default payment model:
 

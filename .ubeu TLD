@@ -7,7 +7,7 @@ sponsor: Hedera Domains Service - UBeU.io
 author: Brian G Coleman
 status: Draft
 created: 2023-09-24
-updated: 
+updated: 2023-09-29
 deadline: 
 ---
 
@@ -48,8 +48,8 @@ Purchases shall follow the KNS default payment model:
 - Total = t = a * n
 - Infrastructure Share = i = $2.00 * n
 - Development Share = (t - i) * 0.50
-- Co-op Share = (t-i) * 0.00
-- TLD Admin Share = (t-i) * 0.50
+- Co-op Share = (t-i) * 0.25
+- TLD Admin Share = (t-i) * 0.25
 
 Domain resolution shall be made using a KNS Resolver or KNS Resolver-compatible relay.
 

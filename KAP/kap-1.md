@@ -58,7 +58,7 @@ Starting with a well-vetted and refined idea and proceeding to craft a comprehen
 
 1. **Identification of Co-Authors and Editors**: Though not required, every KAP should have multiple authors or an author and multiple editors. This represents a seed of community involvement in the KAP. These participants can be cultivated from the discussions about the idea around which the KAP is written.
 
-2. **Role of a Sponsor**: The ideal scenario involves identifying a developer as a sponsor. The sponsor serves as a guide and mentor for the KAP author, providing support through the logistical aspects of the KAP process as well as providing an execution path. Being a sponsor does not preclude the individual from becoming a co-author in the future. The name of the sponsor is recorded in the "Sponsor:" field of the KAP header. An example of an ideal sponsor would be a wallet development company sponsoring a KAP written by one of its founders or partners.
+2. **Role of a Sponsor**: The ideal scenario involves identifying a sponsor. A sponsor is a party who would benefit from the KAP. This sponsor provides both evidence of the KAP's usefulness and a path for execution. The name of the sponsor should be recorded in the KAP header field `Sponsors`. An example of this ideal would be a wallet development company sponsoring a KAP that defines a standard related to cryptographic key management.
 
 3. **Submission of the Draft KAP**: Upon the readiness of the KAP, as determined by the sponsor or co-authors & editors, the KAP should be submitted as a draft as a pull request to the [KAP Github repository](https://github.com/kabuto-sh/proposals).
 
@@ -114,7 +114,8 @@ Each KAP must begin with an [RFC 2822](https://datatracker.ietf.org/doc/html/rfc
   KAP: <kap number>
   Title: <kap title>
   Author: <list of authors' real names and, optionally, email addresses or github handles>
-* Editors: list of editors' real names and, optionally, email addresses or github handles>
+* Editors: <list of editors' real names and, optionally, email addresses or github handles>
+* Sponsors: <list of sponsors' real names and optionally, email addresses, github handles, or website>
   Discussions-To: <URL of current canonical discussion thread>
   Status: <Draft | Active | Accepted | Rejected | Withdrawn | Final | Superseded>
   Type: <Standard | Information | Action>

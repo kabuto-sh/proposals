@@ -4,10 +4,10 @@ title: Kabuto Action Proposals
 type: Information
 sponsor: LaunchBadge, LLC
 author: Ken Anderson <@kenthejr>
-editors: Ken Anderson <@kenthejr>
-status: Draft
+editors: Ken Anderson <@kenthejr>, Milan Wiercx van Rhijn <@MilanWR>
+status: Accepted
 created: 2023-10-30
-updated: 2023-10-30
+updated: 2023-11-1
 ---
 
 ## What is a KAP?

@@ -1,13 +1,14 @@
 ---
 kap: 1
 title: Kabuto Action Proposals
-type: Information
-sponsor: LaunchBadge, LLC
-author: Ken Anderson <@kenthejr>
-editors: Ken Anderson <@kenthejr>, Milan Wiercx van Rhijn <@MilanWR>
+authors: Ken Anderson <@kenthejr>
+editors: Ken Anderson <@kenthejr>, Milan Wiercx van Rhijn <@MilanWR>, Brian Coleman <@BGC-ubeu>
+sponsors: LaunchBadge LLC <launchbadge.com>
+discussions-to: https://github.com/kabuto-sh/proposals/discussions/6
 status: Accepted
+type: Information
 created: 2023-10-30
-updated: 2023-11-1
+updated: 2023-11-2
 ---
 
 ## What is a KAP?
@@ -108,12 +109,12 @@ Each KAP should have the following parts:
 
 ## KAP Header Preamble
 
-Each KAP must begin with an [RFC 2822](https://datatracker.ietf.org/doc/html/rfc2822.html) style header preamble. The headers much appear in the following order. Headers marked with "*" are optional. All other headers are required.
+Each KAP must begin with an [RFC 2822](https://datatracker.ietf.org/doc/html/rfc2822.html) style header preamble. The headers must appear in the following order. Headers marked with "*" are optional. All other headers are required.
 
 ```
   KAP: <kap number>
   Title: <kap title>
-  Author: <list of authors' real names and, optionally, email addresses or github handles>
+  Authors: <list of authors' real names and, optionally, email addresses or github handles>
 * Editors: <list of editors' real names and, optionally, email addresses or github handles>
 * Sponsors: <list of sponsors' real names and optionally, email addresses, github handles, or website>
   Discussions-To: <URL of current canonical discussion thread>

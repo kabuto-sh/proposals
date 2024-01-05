@@ -26,6 +26,9 @@ LaunchBadge is the administrator for the .ℏ and .hh TLDs. All funds in the TLD
 
 LaunchBadge has maintained the official KNS resolver on Google Cloud Compute for 13 full months. Infrastructure for the KNS resolver incurred a cost of approximately $495 to $847 each month for a total of $7,301.20 of approximately 13 months. LaunchBadge exercises its right to withdraw funds from the INFRA account to cover that cost at the price of $0.088424333293819 per hbar which is the price on 2024-01-04.
 
+![Resolver Infrastructure Cost](../aux/kap-9/kap-9-1.png)
+_Infrastructure cost on Google Cloud_
+
 ## Issuance
 
 DEV Budget balance at the time of this proposal is 138,962.33082293ℏ.

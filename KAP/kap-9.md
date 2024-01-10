@@ -8,6 +8,7 @@ author: Ken Anderson (@kenthejr)
 status: Draft
 created: 2024-01-04
 deadline: 2024-01-08
+updated: 2024-01-10
 ---
 
 ## Abstract
@@ -16,7 +17,7 @@ Issuance of:
 
 - 138,962.33082293ℏ from 0.0.1443164 (DEV) -> 0.0.40834
 - 69,529.02287807ℏ from 0.0.1443163 (TLD for .ℏ & .hh) -> 0.0.40834
-- 82,570.031664692973893ℏ ($7,301.20 x $0.088424333293819/ℏ) from 0.0.1443162 (INFRA) -> 0.0.40834
+- 82,570.03166469ℏ ($7,301.20 x $0.088424333293819/ℏ) from 0.0.1443162 (INFRA) -> 0.0.40834
 
 ## Rationale
 
@@ -37,11 +38,11 @@ DEV Budget balance at the time of this proposal is 138,962.33082293ℏ.
 
 TLD Budget balance at the time of this proposal is 69,529.02287807ℏ.
 
-69,529.02287807ℏ to be issued to 0.0.40834 from the DEV Budget.
+69,529.02287807ℏ to be issued to 0.0.40834 from the TLD Budget.
 
 INFRA Budget balance at the time of this proposal is 119,629.35049621ℏ.
 
-82,570.031664692973893ℏ to be issued to 0.0.40834 from the DEV Budget.
+82,570.03166469ℏ to be issued to 0.0.40834 from the INFRA Budget.
 
 ## Open Issues
 

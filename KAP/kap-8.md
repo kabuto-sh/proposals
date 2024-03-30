@@ -25,7 +25,7 @@ Kabuto Name Service is a self-sufficient DNS-like protocol built strictly in sma
 | Organization       | Cleared? |
 | ------------------ | -------- |
 | IANA               | TRUE     |
-| Hashgraph.name     | FALSE    |
+| Hashgraph.name (HGN)| FALSE    |
 | KNS                | TRUE     |
 | UnstoppableDomains | TRUE     |
 
@@ -35,7 +35,7 @@ The HBAR TLD shall be issued as `.hbar`.
 
 This TLD will be issued as a KNS TLD NFT.
 
-The admin of this TLD shall be 0.0.xxxxxx.
+The admin of this TLD shall be 0.0.1443163.
 
 Purchases shall follow the KNS default payment model:
 
@@ -63,7 +63,13 @@ The pricing of domains under this TLD shall follow the following pricing model:
 | 2          | $50      | $100    |
 | 1          | $500     | $1000   |
 
+KNS will deploy a mechanism to allow owners of HGN-issued `.hbar` domains to migrate their HGN domain NFTs to the KNS protocol. This process will require that the owner transfers the NFT to KNS, after which the KNS protocol will issue a KNS NFT of the same domain name in return. Owners can visit https://ns.kabuto.sh, connect their wallet, search for their `.hbar` domain, and, if the connected wallet's address matches the owner of the HGN NFT, a migration prompt will be presented.
+
+KNS will reference the HGN resolver API to ensure that KNS does not issue any new `.hbar` domains that are duplicates of currently issued and non-expired HGN-issued domains. Those domains must complete the migration process.
+
 ## Open Issues
+
+### Domain duplication
 
 Currently, hashgraph.name (HGN) is the sole issuer of `.hbar` domains. Issuing `.hbar` domains on KNS will result in duplicate domain issuance between hashgraph.name and KNS. This creates an additional problem for wallets in the ecosystem. If there are two uncoordinated domain name resolvers in the Hedera ecosystem, which does a wallet provider resolve to? It can create confusion for users if sending to one `.hbar` domain results in another user receiving the funds.
 
@@ -71,6 +77,12 @@ The options for resolution here are:
 
 - KNS & HGN pre-check each domain sale against each others' resolver to ensure that neither sells a domain already issued on the other protocol. This approach affords no technical guarantee of non-collision.
 - HGN adopts KNS as an infrastructure layer, becomes the TLD admin for `.hbar` and sells `.hbar` however they want. This approach guarantees non-collision of domains since the smart contracts handle the domain checks.
+
+### Migration fees
+
+Owners of `.hbar` domains that were issued by HGN have already paid a fee for those domains. KNS will waive the TLD Admin, Co-op Share, and Development Share fees only for domains migrating from HGN to KNS for a limited time. The infrastructure fee of $2.00 per year will still be charged only to cover the cost of storage and maintenance of the KNS smart contracts.
+
+New purchases of `.hbar` domains on KNS that were not issued by HGN will continue to be issued with the standard fee structure.
 
 ## References
 

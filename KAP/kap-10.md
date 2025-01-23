@@ -28,6 +28,7 @@ The upcoming browser will integrate with HCS standards to provide file storage (
 | Hashgraph.name     | TRUE     |
 | KNS                | TRUE     |
 | UnstoppableDomains | TRUE     |
+| Namecoin           | FALSE    |
 
 ## Specification
 

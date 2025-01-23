@@ -61,6 +61,9 @@ Browser Integration:
 - [Hashgraph Online](https://www.hashgraphonline.com/)
 - [Kabuto Name Service ("KNS")](https://kabuto.sh/)
 
+# Risks
+ - .bit TLD was established by Namecoin https://www.nfthistory.org/wiki/.bit_Domains. It is not currently a registered TLD in the IANA registry and does not function without a chrome extension.
+
 ## Copyright / License
 
 This document is licensed under the Apache License, Version 2.0 -- (<https://www.apache.org/licenses/LICENSE-2.0>)
